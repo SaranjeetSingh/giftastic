@@ -64,7 +64,7 @@ $("#add-gif").on("click", function(event) {
 event.preventDefault();
 
 var newGif = $("#gif-input").val().trim();
-
+$("#gif-input").val("");
 gifs.push(newGif);
 
 renderButtons();
